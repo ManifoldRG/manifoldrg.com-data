@@ -1,87 +1,89 @@
- {
-    "projects": {
-      "multinet": {
-        "description": "MultiNet is an open-source benchmark designed to evaluate Vision-Language-Action (VLA) models on a diverse set of tasks spanning vision, language, and robotic control. By consolidating high-quality datasets and standardizing evaluation metrics, MultiNet enables the development of generalist AI systems that integrate multimodal understanding with real-world action capabilities.",
-        "links": {
-          "discord_link": {
-            "title": "Discord",
-            "url": "https://discord.gg/sAwsJjFnyq"
-          },
-          "website": {
-            "title": "Website",
-            "url": "https://multinet.ai/"
-          },
-          "paper": {
-            "title": "Paper",
-            "url": "https://multinet.ai/static/pages/Multinetv01.html"
-          }
+{
+  "projects": {
+    "multinet": {
+      "description": "MultiNet is an open-source benchmark designed to evaluate Vision-Language-Action (VLA) models on a diverse set of tasks spanning vision, language, and robotic control. By consolidating high-quality datasets and standardizing evaluation metrics, MultiNet enables the development of generalist AI systems that integrate multimodal understanding with real-world action capabilities.",
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.gg/sAwsJjFnyq"
         },
-        "title": "MultiNet"
-      },
-      "llm_calibration": {
-        "description": "This project evaluates and improves the calibration of large language models (LLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
-        "links": {
-          "discord_link": {
-            "title": "Discord",
-            "url": "https://discord.gg/znY6SdRuph"
-          },
-        "title": "LLM Calibration"
-      },
-      "modular_space_systems_assembly": {
-        "description": "This project explores autonomous multi-agent robotic assembly of modular space structures to enable scalable, adaptable, and resilient in-orbit construction. By developing novel guidance and control algorithms for free-flying and pivoting modular systems, we aim to improve the efficiency, scalability, and reconfiguration capabilities of future space infrastructure.",
-        "links": {
-          "discord_link": {
-            "title": "Discord",
-            "url": "https://discord.gg/TnGKzRTDqU"
-          },
-          "roadmap_link": {
-            "title": "Overview",
-            "url": "https://docs.google.com/document/d/e/2PACX-1vSqxnRm_PUTHqY470JBBOd80_Qy5w6UmA_zJ4mMfpDaio6uIr1IpJM5G1kFzZPWGBO680xMpgLNaFJ_/pub"
-          }
+        "website": {
+          "title": "Website",
+          "url": "https://multinet.ai/"
         },
-        "title": "Modular Space Systems Assembly"
-      },
-    "research_directions": {
-      "multimodality": {
-        "description": "We are developing and testing new model architectures & network primitives to achieve massively multimodal, “Generalist” systems capable of doing useful things across images, natural language, and the physical and digital world.",
-        "label": "Multimodality",
-        "projects": {
-          "multinet": {
-            "description": "A Generalist Benchmark for Vision-Language & Action models",
-            "title": "MultiNet",
-            "url": "/multinet"
-          }
-        },
-        "title": "Multimodality"
-      },
-      "metacognition": {
-        "title": "Metacognition",
-        "description": "Metacognition helps agents evaluate and improve their decisions—critical for autonomy. Inspired by human cognition, we aim to benchmark and eventually build metacognitive abilities in these agents.",
-        "label": "Metacognition"
-        "projects": {
-          "llm_calibration": {
-            "description": "Improving LLM self-assessment on reasoning benchmarks.",
-            "title": "LLM Calibration",
-            "url": "/llmcalibration"
-          }
+        "paper": {
+          "title": "Paper",
+          "url": "https://multinet.ai/static/pages/Multinetv01.html"
         }
       },
-      "swarm_intelligence": {
-        "description": "We’re exploring ways to enable swarms of robots to cooperate in a decentralized way, with an emphasis on real-time adaptation to out-of-distribution changes to their environments or scenarios.",
-        "label": "Swarms",
-        "projects": {
-          "modular_space_systems_assembly": {
-            "description": "Swarm robotics for in-orbit assembly and reconfiguration.",
-            "title": "Modular Space Systems Assembly",
-            "url": "/modular_space_systems_assembly"
-          }
-        },
-        "title": "Swarm Intelligence"
+      "title": "MultiNet"
+    },
+    "llm_calibration": {
+      "description": "This project evaluates and improves the calibration of large language models (LLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.gg/znY6SdRuph"
+        }
       },
-      "generative_biology": {
-        "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details.",
-        "label": "Gen Bio",
-        "title": "Generative Biology"
+      "title": "LLM Calibration"
+    },
+    "modular_space_systems_assembly": {
+      "description": "This project explores autonomous multi-agent robotic assembly of modular space structures to enable scalable, adaptable, and resilient in-orbit construction. By developing novel guidance and control algorithms for free-flying and pivoting modular systems, we aim to improve the efficiency, scalability, and reconfiguration capabilities of future space infrastructure.",
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.gg/TnGKzRTDqU"
+        },
+        "roadmap_link": {
+          "title": "Overview",
+          "url": "https://docs.google.com/document/d/e/2PACX-1vSqxnRm_PUTHqY470JBBOd80_Qy5w6UmA_zJ4mMfpDaio6uIr1IpJM5G1kFzZPWGBO680xMpgLNaFJ_/pub"
+        }
+      },
+      "title": "Modular Space Systems Assembly"
+    }
+  },
+  "research_directions": {
+    "multimodality": {
+      "description": "We are developing and testing new model architectures & network primitives to achieve massively multimodal, “Generalist” systems capable of doing useful things across images, natural language, and the physical and digital world.",
+      "label": "Multimodality",
+      "projects": {
+        "multinet": {
+          "description": "A Generalist Benchmark for Vision-Language & Action models",
+          "title": "MultiNet",
+          "url": "/multinet"
+        }
+      },
+      "title": "Multimodality"
+    },
+    "metacognition": {
+      "title": "Metacognition",
+      "description": "Metacognition helps agents evaluate and improve their decisions—critical for autonomy. Inspired by human cognition, we aim to benchmark and eventually build metacognitive abilities in these agents.",
+      "label": "Metacognition",
+      "projects": {
+        "llm_calibration": {
+          "description": "Improving LLM self-assessment on reasoning benchmarks.",
+          "title": "LLM Calibration",
+          "url": "/llmcalibration"
+        }
       }
+    },
+    "swarm_intelligence": {
+      "description": "We’re exploring ways to enable swarms of robots to cooperate in a decentralized way, with an emphasis on real-time adaptation to out-of-distribution changes to their environments or scenarios.",
+      "label": "Swarms",
+      "projects": {
+        "modular_space_systems_assembly": {
+          "description": "Swarm robotics for in-orbit assembly and reconfiguration.",
+          "title": "Modular Space Systems Assembly",
+          "url": "/modular_space_systems_assembly"
+        }
+      },
+      "title": "Swarm Intelligence"
+    },
+    "generative_biology": {
+      "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details.",
+      "label": "Gen Bio",
+      "title": "Generative Biology"
     }
   }
+}
