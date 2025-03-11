@@ -5,15 +5,18 @@
       "links": {
         "discord_link": {
           "title": "Discord",
-          "url": "https://discord.gg/sAwsJjFnyq"
+          "url": "https://discord.gg/sAwsJjFnyq",
+          "description": "Join our MultiNet Discord Channel"
         },
         "website": {
           "title": "Website",
-          "url": "https://multinet.ai/"
+          "url": "https://multinet.ai/",
+          "description": "Check out the MultiNet Project Website"
         },
         "paper": {
           "title": "Paper",
-          "url": "https://multinet.ai/static/pages/Multinetv01.html"
+          "url": "https://multinet.ai/static/pages/Multinetv01.html",
+          "description": "Read our V0.1 Paper"
         }
       },
       "title": "MultiNet"
@@ -23,7 +26,8 @@
       "links": {
         "discord_link": {
           "title": "Discord",
-          "url": "https://discord.gg/znY6SdRuph"
+          "url": "https://discord.gg/znY6SdRuph",
+          "description": "Join the Metacognition Discord Channel"
         }
       },
       "title": "LLM Calibration"
@@ -33,11 +37,13 @@
       "links": {
         "discord_link": {
           "title": "Discord",
-          "url": "https://discord.gg/TnGKzRTDqU"
+          "url": "https://discord.gg/TnGKzRTDqU",
+          "description": "Join the MSSA Discord Channel"
         },
         "roadmap_link": {
           "title": "Overview",
-          "url": "https://docs.google.com/document/d/e/2PACX-1vSqxnRm_PUTHqY470JBBOd80_Qy5w6UmA_zJ4mMfpDaio6uIr1IpJM5G1kFzZPWGBO680xMpgLNaFJ_/pub"
+          "url": "https://docs.google.com/document/d/e/2PACX-1vSqxnRm_PUTHqY470JBBOd80_Qy5w6UmA_zJ4mMfpDaio6uIr1IpJM5G1kFzZPWGBO680xMpgLNaFJ_/pub",
+          "description": "Read our Project Overview"
         }
       },
       "title": "Modular Space Systems Assembly"
