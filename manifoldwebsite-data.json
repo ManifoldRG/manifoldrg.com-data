@@ -22,7 +22,7 @@
       "title": "MultiNet"
     },
     "vlm_calibration": {
-      "description": "This project evaluates and improves the calibration of large language models (LLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
+      "description": "This project evaluates and improves the calibration of vision language models (VLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
       "links": {
         "discord_link": {
           "title": "Discord",
@@ -67,7 +67,7 @@
       "description": "Metacognition helps agents evaluate and improve their decisions—critical for autonomy. Inspired by human cognition, we aim to benchmark and eventually build metacognitive abilities in these agents.",
       "label": "Metacognition",
       "projects": {
-        "llm_calibration": {
+        "vlm_calibration": {
           "description": "Improving VLM self-assessment on reasoning benchmarks.",
           "title": "VLM Calibration",
           "url": "/vlmcalibration"
