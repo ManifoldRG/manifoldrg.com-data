@@ -21,7 +21,7 @@
       },
       "title": "MultiNet"
     },
-    "llm_calibration": {
+    "vlm_calibration": {
       "description": "This project evaluates and improves the calibration of large language models (LLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
       "links": {
         "discord_link": {
@@ -30,7 +30,7 @@
           "description": "Join the Metacognition Discord Channel"
         }
       },
-      "title": "LLM Calibration"
+      "title": "VLM Calibration"
     },
     "modular_space_systems_assembly": {
       "description": "This project explores autonomous multi-agent robotic assembly of modular space structures to enable scalable, adaptable, and resilient in-orbit construction. By developing novel guidance and control algorithms for free-flying and pivoting modular systems, we aim to improve the efficiency, scalability, and reconfiguration capabilities of future space infrastructure.",
@@ -68,15 +68,15 @@
       "label": "Metacognition",
       "projects": {
         "llm_calibration": {
-          "description": "Improving LLM self-assessment on reasoning benchmarks.",
-          "title": "LLM Calibration",
-          "url": "/llmcalibration"
+          "description": "Improving VLM self-assessment on reasoning benchmarks.",
+          "title": "VLM Calibration",
+          "url": "/vlmcalibration"
         }
       }
     },
     "swarm_intelligence": {
       "description": "We’re exploring ways to enable swarms of robots to cooperate in a decentralized way, with an emphasis on real-time adaptation to out-of-distribution changes to their environments or scenarios.",
-      "label": "Swarms",
+      "label": "Swarm Intelligence",
       "projects": {
         "modular_space_systems_assembly": {
           "description": "Swarm robotics for in-orbit assembly and reconfiguration.",
@@ -88,7 +88,7 @@
     },
     "generative_biology": {
       "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details.",
-      "label": "Gen Bio",
+      "label": "Generative Biology",
       "title": "Generative Biology"
     }
   }
