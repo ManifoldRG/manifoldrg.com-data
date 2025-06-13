@@ -60,10 +60,10 @@
           "url": "/multinet"
         }
       },
-      "title": "Multimodality"
+      "title": "Multimodality",
+      "image": "manifoldWebsite-images/manifold_model.webp"
     },
     "metacognition": {
-      "title": "Metacognition",
       "description": "Metacognition helps agents evaluate and improve their decisions—critical for autonomy. Inspired by human cognition, we aim to benchmark and eventually build metacognitive abilities in these agents.",
       "label": "Metacognition",
       "projects": {
@@ -72,7 +72,9 @@
           "title": "VLM Calibration",
           "url": "/vlmcalibration"
         }
-      }
+      },
+      "title": "Metacognition",
+      "image": ""
     },
     "swarm_intelligence": {
       "description": "We’re exploring ways to enable swarms of robots to cooperate in a decentralized way, with an emphasis on real-time adaptation to out-of-distribution changes to their environments or scenarios.",
@@ -84,12 +86,14 @@
           "url": "/modular_space_systems_assembly"
         }
       },
-      "title": "Swarm Intelligence"
+      "title": "Swarm Intelligence",
+      "image": ""
     },
     "generative_biology": {
       "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details.",
       "label": "Generative Biology",
-      "title": "Generative Biology"
+      "title": "Generative Biology",
+      "image": ""
     }
   }
 }
