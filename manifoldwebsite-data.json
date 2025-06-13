@@ -19,7 +19,8 @@
           "description": "Read our V0.1 Paper"
         }
       },
-      "title": "MultiNet"
+      "title": "MultiNet",
+      "icon": "manifoldWebsite-images/icons8-net-64.png"
     },
     "vlm_calibration": {
       "description": "This project evaluates and improves the calibration of vision language models (VLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
@@ -30,7 +31,8 @@
           "description": "Join the Metacognition Discord Channel"
         }
       },
-      "title": "VLM Calibration"
+      "title": "VLM Calibration",
+      "icon": ""
     },
     "modular_space_systems_assembly": {
       "description": "This project explores autonomous multi-agent robotic assembly of modular space structures to enable scalable, adaptable, and resilient in-orbit construction. By developing novel guidance and control algorithms for free-flying and pivoting modular systems, we aim to improve the efficiency, scalability, and reconfiguration capabilities of future space infrastructure.",
@@ -46,7 +48,8 @@
           "description": "Read our Project Overview"
         }
       },
-      "title": "Modular Space Systems Assembly"
+      "title": "Modular Space Systems Assembly",
+      "icon": ""
     }
   },
   "research_directions": {
@@ -57,11 +60,13 @@
         "multinet": {
           "description": "A Generalist Benchmark for Vision-Language & Action models",
           "title": "MultiNet",
-          "url": "/multinet"
+          "url": "/multinet",
+          "icon": "manifoldWebsite-images/icons8-net-64.png"
         }
       },
       "title": "Multimodality",
       "image": "manifoldWebsite-images/manifold_model.webp"
+      
     },
     "metacognition": {
       "description": "Metacognition helps agents evaluate and improve their decisions—critical for autonomy. Inspired by human cognition, we aim to benchmark and eventually build metacognitive abilities in these agents.",
@@ -70,7 +75,8 @@
         "vlm_calibration": {
           "description": "Improving VLM self-assessment on reasoning benchmarks.",
           "title": "VLM Calibration",
-          "url": "/vlmcalibration"
+          "url": "/vlmcalibration",
+          "icon": ""
         }
       },
       "title": "Metacognition",
@@ -83,7 +89,8 @@
         "modular_space_systems_assembly": {
           "description": "Swarm robotics for in-orbit assembly and reconfiguration.",
           "title": "Modular Space Systems Assembly",
-          "url": "/modular_space_systems_assembly"
+          "url": "/modular_space_systems_assembly",
+          "icon": ""
         }
       },
       "title": "Swarm Intelligence",
