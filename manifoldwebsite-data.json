@@ -20,6 +20,7 @@
         }
       },
       "title": "MultiNet",
+      "image": "manifoldWebsite-images/manifold_model.webp",
       "icon": "manifoldWebsite-images/icons8-net-64.png"
     },
     "vlm_calibration": {
@@ -32,6 +33,7 @@
         }
       },
       "title": "VLM Calibration",
+      "image": "",
       "icon": ""
     },
     "modular_space_systems_assembly": {
@@ -49,6 +51,7 @@
         }
       },
       "title": "Modular Space Systems Assembly",
+      "image": "",
       "icon": ""
     }
   },
