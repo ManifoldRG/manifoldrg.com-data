@@ -2,7 +2,7 @@
   "projects": {
     "fase": {
       "title": "Frontier AI System Evaluations",
-      "description": "FASE. is an initiative to develop evolving, community-driven evaluation frameworks for AI. The project builds domain-specific benchmarks, simulators for autonomous AI systems, and methodological standards for rigorous assessment. By enabling open contribution and structured collaboration, FASE supports the creation of reliable, extensible testing grounds for advancing AI capabilities in complex environments.",
+      "description": "FASE is an initiative to develop evolving, community-driven evaluation frameworks for AI. The project builds domain-specific benchmarks, simulators for autonomous AI systems, and methodological standards for rigorous assessment. By enabling open contribution and structured collaboration, FASE supports the creation of reliable, extensible testing grounds for advancing AI capabilities in complex environments.",
       "links": {},
       "image": "manifoldWebsite-images/FASE.png",
       "icon": ""
@@ -94,13 +94,13 @@
   },
   "research_directions": {
     "golem": {
-      "label": "Golem",
-      "title": "GOLEM - Generalist Omnimodal Learning for Engineered Minds",
-      "description": "GOLEM (Generalist Omnimodal Learning in Engineered Minds) is a long term research program focused on building AI systems that can perceive, reason, adapt, and act across any input and output modality. The program explores fundamental architectures, training methodologies, and evaluation frameworks needed for AI systems that can process multimodal inputs, generate appropriate outputs, adapt to new situations, and continue learning over time. Viewing minds as computational entities capable of goal-directed adaptive behavior, GOLEM addresses core questions about how AI systems can learn in real-time from sensorimotor experience and efficiently modify their internal architectures. The program encompasses multimodal intelligence and action research, metacognitive systems development, and living benchmarks initiatives, all working toward creating truly general artificial intelligence. Through this work, we aim to advance both the scientific understanding of intelligence and the practical deployment of AI systems that can operate effectively in open, uncertain environments.",
+      "label": "GOLEM",
+      "title": "GOLEM",
+      "description": "GOLEM (Generalist Omnimodal Learning in Engineered Minds) is a long term research program focused on building AI systems that can perceive, reason, adapt, and act across any input and output modality. The program explores fundamental architectures, training methodologies, and evaluation frameworks needed for AI systems that can process multimodal inputs, generate appropriate outputs, adapt to new situations, and continue learning over time.",
       "projects": {
         "fase": {
           "title": "Frontier AI System Evaluations",
-          "description": "FASE. is an initiative to develop evolving, community-driven evaluation frameworks for AI.",
+          "description": "FASE is an initiative to develop evolving, community-driven evaluation frameworks for AI.",
           "url": "/fase",
           "icon": ""
         },
@@ -112,13 +112,13 @@
         },
         "multimodal_action_models": {
           "title": "Multimodal Action Models",
-          "description": "Connecting vision, language and control for generalist embodied AI",
+          "description": "Connecting vision, language and control for generalist embodied AI.",
           "url": "/multimodal_action_models",
           "icon": ""
         },
         "multinet": {
           "title": "MultiNet",
-          "description": "Benchmarking next‑gen Generalist AI: multimodal perception, language, and action",
+          "description": "Benchmarking next‑gen Generalist AI: multimodal perception, language, and action.",
           "url": "/multinet",
           "icon": ""
         }
