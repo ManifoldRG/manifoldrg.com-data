@@ -2,7 +2,7 @@
   "projects": {
     "fase": {
       "title": "Frontier AI System Evaluations",
-      "description": "FASE is an initiative to develop evolving, community-driven evaluation frameworks for AI. The project builds domain-specific benchmarks, simulators for autonomous AI systems, and methodological standards for rigorous assessment. By enabling open contribution and structured collaboration, FASE supports the creation of reliable, extensible testing grounds for advancing AI capabilities in complex environments.",
+      "description": "FASE. is an initiative to develop evolving, community-driven evaluation frameworks for AI. The project builds domain-specific benchmarks, simulators for autonomous AI systems, and methodological standards for rigorous assessment. By enabling open contribution and structured collaboration, FASE supports the creation of reliable, extensible testing grounds for advancing AI capabilities in complex environments.",
       "links": {},
       "image": "manifoldWebsite-images/FASE.png",
       "icon": ""
@@ -10,28 +10,77 @@
     "vlm_calibration": {
       "title": "VLM Calibration",
       "description": "The VLM Calibration Project investigates whether large language models can accurately assess the correctness of their own answers. Despite impressive capabilities, VLMs often exhibit overconfidence; even when wrong. This project systematically evaluates model calibration across multiple datasets and architectures, probing the reliability of their self-assessed confidence. By analyzing when and why different models misjudge uncertainty, we aim to improve trust and interpretability in AI systems.",
-      "links": {},
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.com/channels/755517485096108153/1262117499999092837",
+          "description": "Join our VLM Discord Channel"
+        },
+        "github_link": {
+          "title": "GitHub",
+          "url": "https://github.com/ManifoldRG/VLMCalibration",
+          "description": "View the VLM Calibration code on GitHub"
+        }
+      },
       "image": "manifoldWebsite-images/VLMCalibration.png",
       "icon": ""
     },
     "multimodal_action_models": {
       "title": "Multimodal Action Models",
       "description": "The Multimodal Action Models project aims to develop AI systems that link perception to action across diverse modalities such as vision, language and sensor data to perform complex tasks in dynamic physical and digital environments. These models integrate understanding and control into unified architectures, enabling generalist agents that can interpret multimodal inputs, reason about goals and take appropriate actions in real world or simulated settings.",
-      "links": {},
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.com/channels/755517485096108153/1104825004811624488",
+          "description": "Join the Multimodal Action Models Discord Channel"
+        },
+        "github_link": {
+          "title": "GitHub",
+          "url": "https://github.com/ManifoldRG/NEKO",
+          "description": "View the Multimodal Action Models repo"
+        }
+      },
       "image": "manifoldWebsite-images/MultimodalActionModels.png",
       "icon": ""
     },
     "multinet": {
       "title": "MultiNet",
       "description": "We are building unified benchmarks for AI systems that see, reason, and act. MultiNet standardizes diverse multimodal datasets, spanning vision, language, and action, and provides tools for training and evaluating generalist agents. By enabling consistent pretraining and rigorous end-to-end evaluation, MultiNet advances the development of foundation models capable of perception, understanding, and control.",
-      "links": {},
+      "links": {
+        "website": {
+          "title": "Website",
+          "url": "https://multinet.ai/index.html",
+          "description": "Visit the MultiNet Website"
+        },
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.com/channels/755517485096108153/1230314669223317544",
+          "description": "Join the MultiNet Discord Channel"
+        },
+        "github_link": {
+          "title": "GitHub",
+          "url": "https://github.com/ManifoldRG/MultiNet",
+          "description": "View the MultiNet repo on GitHub"
+        }
+      },
       "image": "manifoldWebsite-images/MultiNet.png",
       "icon": ""
     },
     "modular_space_systems_assembly": {
       "title": "Modular Space Systems Assembly",
       "description": "Modular Space Systems Assembly develops guidance and control methods for swarms of robotic agents that autonomously assemble and reconfigure modular spacecraft in orbit. From free-flying cubes to electromagnetically actuated voxels, MSSA explores scalable algorithms for assembling complex structures without centralized control. This enables rapid in-orbit construction and dynamic reconfiguration of next-generation spacecraft and infrastructure.",
-      "links": {},
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discord.com/channels/755517485096108153/1292306707015274547",
+          "description": "Join the MSSA Discord Channel"
+        },
+        "github_link": {
+          "title": "GitHub",
+          "url": "https://github.com/ManifoldRG/MSSA",
+          "description": "View the MSSA code on GitHub"
+        }
+      },
       "image": "manifoldWebsite-images/MSSA.png",
       "icon": ""
     },
@@ -46,12 +95,12 @@
   "research_directions": {
     "golem": {
       "label": "Golem",
-      "title": "GOLEM",
-      "description": "GOLEM (Generalist Omnimodal Learning in Engineered Minds) is a long term research program focused on building AI systems that can perceive, reason, adapt, and act across any input and output modality. The program explores fundamental architectures, training methodologies, and evaluation frameworks needed for AI systems that can process multimodal inputs, generate appropriate outputs, adapt to new situations, and continue learning over time.",
+      "title": "GOLEM - Generalist Omnimodal Learning for Engineered Minds",
+      "description": "GOLEM (Generalist Omnimodal Learning in Engineered Minds) is a long term research program focused on building AI systems that can perceive, reason, adapt, and act across any input and output modality. The program explores fundamental architectures, training methodologies, and evaluation frameworks needed for AI systems that can process multimodal inputs, generate appropriate outputs, adapt to new situations, and continue learning over time. Viewing minds as computational entities capable of goal-directed adaptive behavior, GOLEM addresses core questions about how AI systems can learn in real-time from sensorimotor experience and efficiently modify their internal architectures. The program encompasses multimodal intelligence and action research, metacognitive systems development, and living benchmarks initiatives, all working toward creating truly general artificial intelligence. Through this work, we aim to advance both the scientific understanding of intelligence and the practical deployment of AI systems that can operate effectively in open, uncertain environments.",
       "projects": {
         "fase": {
           "title": "Frontier AI System Evaluations",
-          "description": "FASE is an initiative to develop evolving, community-driven evaluation frameworks for AI.",
+          "description": "FASE. is an initiative to develop evolving, community-driven evaluation frameworks for AI.",
           "url": "/fase",
           "icon": ""
         },
@@ -63,13 +112,13 @@
         },
         "multimodal_action_models": {
           "title": "Multimodal Action Models",
-          "description": "Connecting vision, language and control for generalist embodied AI.",
+          "description": "Connecting vision, language and control for generalist embodied AI",
           "url": "/multimodal_action_models",
           "icon": ""
         },
         "multinet": {
           "title": "MultiNet",
-          "description": "Benchmarking next‑gen Generalist AI: multimodal perception, language, and action.",
+          "description": "Benchmarking next‑gen Generalist AI: multimodal perception, language, and action",
           "url": "/multinet",
           "icon": ""
         }
