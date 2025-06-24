@@ -1,108 +1,113 @@
 {
   "projects": {
-    "multinet": {
-      "description": "MultiNet is an open-source benchmark designed to evaluate Vision-Language-Action (VLA) models on a diverse set of tasks spanning vision, language, and robotic control. By consolidating high-quality datasets and standardizing evaluation metrics, MultiNet enables the development of generalist AI systems that integrate multimodal understanding with real-world action capabilities.",
-      "links": {
-        "discord_link": {
-          "title": "Discord",
-          "url": "https://discord.gg/sAwsJjFnyq",
-          "description": "Join our MultiNet Discord Channel"
-        },
-        "website": {
-          "title": "Website",
-          "url": "https://multinet.ai/",
-          "description": "Check out the MultiNet Project Website"
-        },
-        "paper": {
-          "title": "Paper",
-          "url": "https://multinet.ai/static/pages/Multinetv01.html",
-          "description": "Read our V0.1 Paper"
-        }
-      },
-      "title": "MultiNet",
-      "image": "manifoldWebsite-images/manifold_model.webp",
-      "icon": "manifoldWebsite-images/icons8-net-64.png"
+    "fase": {
+      "title": "Frontier AI System Evaluations",
+      "description": "FASE. is an initiative to develop evolving, community-driven evaluation frameworks for AI. The project builds domain-specific benchmarks, simulators for autonomous AI systems, and methodological standards for rigorous assessment. By enabling open contribution and structured collaboration, FASE supports the creation of reliable, extensible testing grounds for advancing AI capabilities in complex environments.",
+      "links": {},
+      "image": "manifoldWebsite-images/FASE.png",
+      "icon": ""
     },
     "vlm_calibration": {
-      "description": "This project evaluates and improves the calibration of vision language models (VLMs) on reasoning benchmarks like GSM8K and MMLU, analyzing their confidence estimates and accuracy. Through techniques like Chain-of-Thought (CoT) prompting, activation steering, and systematic sanity checks, we aim to reduce overconfidence and enhance models' ability to assess their own correctness.",
-      "links": {
-        "discord_link": {
-          "title": "Discord",
-          "url": "https://discord.gg/znY6SdRuph",
-          "description": "Join the Metacognition Discord Channel"
-        }
-      },
       "title": "VLM Calibration",
-      "image": "",
+      "description": "The VLM Calibration Project investigates whether large language models can accurately assess the correctness of their own answers. Despite impressive capabilities, VLMs often exhibit overconfidence; even when wrong. This project systematically evaluates model calibration across multiple datasets and architectures, probing the reliability of their self-assessed confidence. By analyzing when and why different models misjudge uncertainty, we aim to improve trust and interpretability in AI systems.",
+      "links": {},
+      "image": "manifoldWebsite-images/VLMCalibration.png",
+      "icon": ""
+    },
+    "multimodal_action_models": {
+      "title": "Multimodal Action Models",
+      "description": "The Multimodal Action Models project aims to develop AI systems that link perception to action across diverse modalities such as vision, language and sensor data to perform complex tasks in dynamic physical and digital environments. These models integrate understanding and control into unified architectures, enabling generalist agents that can interpret multimodal inputs, reason about goals and take appropriate actions in real world or simulated settings.",
+      "links": {},
+      "image": "manifoldWebsite-images/MultimodalActionModels.png",
+      "icon": ""
+    },
+    "multinet": {
+      "title": "MultiNet",
+      "description": "We are building unified benchmarks for AI systems that see, reason, and act. MultiNet standardizes diverse multimodal datasets, spanning vision, language, and action, and provides tools for training and evaluating generalist agents. By enabling consistent pretraining and rigorous end-to-end evaluation, MultiNet advances the development of foundation models capable of perception, understanding, and control.",
+      "links": {},
+      "image": "manifoldWebsite-images/MultiNet.png",
       "icon": ""
     },
     "modular_space_systems_assembly": {
-      "description": "This project explores autonomous multi-agent robotic assembly of modular space structures to enable scalable, adaptable, and resilient in-orbit construction. By developing novel guidance and control algorithms for free-flying and pivoting modular systems, we aim to improve the efficiency, scalability, and reconfiguration capabilities of future space infrastructure.",
-      "links": {
-        "discord_link": {
-          "title": "Discord",
-          "url": "https://discord.gg/TnGKzRTDqU",
-          "description": "Join the MSSA Discord Channel"
-        },
-        "roadmap_link": {
-          "title": "Overview",
-          "url": "https://docs.google.com/document/d/e/2PACX-1vSqxnRm_PUTHqY470JBBOd80_Qy5w6UmA_zJ4mMfpDaio6uIr1IpJM5G1kFzZPWGBO680xMpgLNaFJ_/pub",
-          "description": "Read our Project Overview"
-        }
-      },
       "title": "Modular Space Systems Assembly",
-      "image": "",
+      "description": "Modular Space Systems Assembly develops guidance and control methods for swarms of robotic agents that autonomously assemble and reconfigure modular spacecraft in orbit. From free-flying cubes to electromagnetically actuated voxels, MSSA explores scalable algorithms for assembling complex structures without centralized control. This enables rapid in-orbit construction and dynamic reconfiguration of next-generation spacecraft and infrastructure.",
+      "links": {},
+      "image": "manifoldWebsite-images/MSSA.png",
+      "icon": ""
+    },
+    "crowded_orbit_navigation": {
+      "title": "Crowded Orbit Navigation",
+      "description": "Crowded Orbits develops learning-based controllers for autonomous spacecraft swarms operating in dense orbits. Using a transformer based neural operator, the system learns to generate fuel-efficient maneuvers that avoid both debris and inter-agent collisions. The project leverages distribution-based objectives and orbital mechanics to enable scalable, decentralized navigation in increasingly congested orbital regimes.",
+      "links": {},
+      "image": "manifoldWebsite-images/CrowdedOrbitNavigation.png",
       "icon": ""
     }
   },
   "research_directions": {
-    "multimodality": {
-      "description": "We are developing and testing new model architectures & network primitives to achieve massively multimodal, “Generalist” systems capable of doing useful things across images, natural language, and the physical and digital world.",
-      "label": "Multimodality",
+    "golem": {
+      "label": "Golem",
+      "title": "GOLEM - Generalist Omnimodal Learning for Engineered Minds",
+      "description": "GOLEM (Generalist Omnimodal Learning in Engineered Minds) is a long term research program focused on building AI systems that can perceive, reason, adapt, and act across any input and output modality. The program explores fundamental architectures, training methodologies, and evaluation frameworks needed for AI systems that can process multimodal inputs, generate appropriate outputs, adapt to new situations, and continue learning over time. Viewing minds as computational entities capable of goal-directed adaptive behavior, GOLEM addresses core questions about how AI systems can learn in real-time from sensorimotor experience and efficiently modify their internal architectures. The program encompasses multimodal intelligence and action research, metacognitive systems development, and living benchmarks initiatives, all working toward creating truly general artificial intelligence. Through this work, we aim to advance both the scientific understanding of intelligence and the practical deployment of AI systems that can operate effectively in open, uncertain environments.",
       "projects": {
-        "multinet": {
-          "description": "A Generalist Benchmark for Vision-Language & Action models",
-          "title": "MultiNet",
-          "url": "/multinet",
-          "icon": "manifoldWebsite-images/icons8-net-64.png"
-        }
-      },
-      "title": "Multimodality",
-      "image": "manifoldWebsite-images/manifold_model.webp"
-      
-    },
-    "metacognition": {
-      "description": "Metacognition helps agents evaluate and improve their decisions—critical for autonomy. Inspired by human cognition, we aim to benchmark and eventually build metacognitive abilities in these agents.",
-      "label": "Metacognition",
-      "projects": {
+        "fase": {
+          "title": "Frontier AI System Evaluations",
+          "description": "FASE. is an initiative to develop evolving, community-driven evaluation frameworks for AI.",
+          "url": "/fase",
+          "icon": ""
+        },
         "vlm_calibration": {
-          "description": "Improving VLM self-assessment on reasoning benchmarks.",
           "title": "VLM Calibration",
-          "url": "/vlmcalibration",
+          "description": "Evaluating how well vision language models know when they’re wrong.",
+          "url": "/vlm_calibration",
+          "icon": ""
+        },
+        "multimodal_action_models": {
+          "title": "Multimodal Action Models",
+          "description": "Connecting vision, language and control for generalist embodied AI",
+          "url": "/multimodal_action_models",
+          "icon": ""
+        },
+        "multinet": {
+          "title": "MultiNet",
+          "description": "Benchmarking next‑gen Generalist AI: multimodal perception, language, and action",
+          "url": "/multinet",
           "icon": ""
         }
       },
-      "title": "Metacognition",
-      "image": ""
+      "image": "manifoldWebsite-images/GOLEM.png"
     },
-    "swarm_intelligence": {
-      "description": "We’re exploring ways to enable swarms of robots to cooperate in a decentralized way, with an emphasis on real-time adaptation to out-of-distribution changes to their environments or scenarios.",
-      "label": "Swarm Intelligence",
+    "aethermorph": {
+      "label": "Aethermorph",
+      "title": "Aethermorph",
+      "description": "Aethermorph develops intelligent, reconfigurable swarms of modular spacecraft for autonomous construction and servicing in orbit. Unlike traditional space robotics, Aethermorph systems are designed to adapt in real time; physically reassembling, coordinating without central control, and responding to mission goals. Through decentralized learning, emergent behavior, and dynamic morphogenesis, the program lays the groundwork for scalable orbital infrastructure and resilient space operations.",
       "projects": {
         "modular_space_systems_assembly": {
-          "description": "Swarm robotics for in-orbit assembly and reconfiguration.",
           "title": "Modular Space Systems Assembly",
+          "description": "Autonomous swarm assembly and reconfiguration of modular space structures.",
           "url": "/modular_space_systems_assembly",
+          "icon": ""
+        },
+        "crowded_orbit_navigation": {
+          "title": "Crowded Orbit Navigation",
+          "description": "Neural operator control for collision-free swarm navigation in congested orbital environments.",
+          "url": "/crowded_orbit_navigation",
           "icon": ""
         }
       },
-      "title": "Swarm Intelligence",
+      "image": "manifoldWebsite-images/Aethermorph.png"
+    },
+    "a2a_science": {
+      "label": "A2A Science",
+      "title": "A2A Science",
+      "description": "Augmented to Autonomous Science explores how AI systems can support, accelerate, and eventually automate the process of scientific discovery. From human-in-the-loop tools to fully autonomous hypothesis generation and experimentation, this program investigates how AI can augment today’s researchers and lay the groundwork for autonomous scientific agents.",
+      "projects": {},
       "image": ""
     },
-    "generative_biology": {
-      "description": "We’re exploring the application of foundation class models to biological problems, including drug discovery, feature detection, protein mapping, and more. Currently in an exploratory capacity, stay tuned for project details.",
-      "label": "Generative Biology",
-      "title": "Generative Biology",
+    "supercluster": {
+      "label": "Supercluster",
+      "title": "Supercluster",
+      "description": "Supercluster is building the infrastructure backbone for the next generation of AI. The program focuses on scaling coordination across hundreds of thousands of compute units across cloud, cluster, and edge environments, while lowering the barrier to access. By unifying fragmented infrastructure into a coherent platform, Supercluster enables both massive-scale models and the democratization of frontier AI capabilities.",
+      "projects": {},
       "image": ""
     }
   }
