@@ -95,20 +95,6 @@
         }
       },
       "image": "manifoldWebsite-images/Aethermorph.png"
-    },
-    "a2a_science": {
-      "label": "A2A Science",
-      "title": "A2A Science",
-      "description": "Augmented to Autonomous Science explores how AI systems can support, accelerate, and eventually automate the process of scientific discovery. From human-in-the-loop tools to fully autonomous hypothesis generation and experimentation, this program investigates how AI can augment today’s researchers and lay the groundwork for autonomous scientific agents.",
-      "projects": {},
-      "image": ""
-    },
-    "supercluster": {
-      "label": "Supercluster",
-      "title": "Supercluster",
-      "description": "Supercluster is building the infrastructure backbone for the next generation of AI. The program focuses on scaling coordination across hundreds of thousands of compute units across cloud, cluster, and edge environments, while lowering the barrier to access. By unifying fragmented infrastructure into a coherent platform, Supercluster enables both massive-scale models and the democratization of frontier AI capabilities.",
-      "projects": {},
-      "image": ""
     }
   }
 }
