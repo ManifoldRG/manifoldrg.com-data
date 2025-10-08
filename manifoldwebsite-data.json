@@ -66,22 +66,47 @@
       "image": "manifoldWebsite-images/MultiNet.png",
       "icon": ""
     },
-    "modular_space_systems_assembly": {
-      "title": "Modular Space Systems Assembly",
-      "description": "Modular Space Systems Assembly develops guidance and control methods for swarms of robotic agents that autonomously assemble and reconfigure modular spacecraft in orbit. From free-flying cubes to electromagnetically actuated voxels, MSSA explores scalable algorithms for assembling complex structures without centralized control. This enables rapid in-orbit construction and dynamic reconfiguration of next-generation spacecraft and infrastructure.",
+    "pivoting_cube_reconfiguration": {
+      "title": "Pivoting Cube Reconfiguration",
+      "description": "Pivoting Cube Reconfiguration develops path planning strategies for large collectives of magnetically actuated pivoting cubes, enabling rapid shape change through coordinated rotations and simultaneous movements. By treating reconfiguration as a massively parallel process rather than a sequential one, the project explores scalable algorithms that reduce transition time and unlock real-time adaptability for modular robotic structures.",
       "links": {
         "discord_link": {
           "title": "Discord",
           "url": "https://discord.com/channels/755517485096108153/1292306707015274547",
-          "description": "Join the MSSA Discord Channel"
+          "description": "Join the PCR Discord Channel"
         },
         "github_link": {
           "title": "GitHub",
-          "url": "https://github.com/ManifoldRG/MSSA",
-          "description": "View the MSSA code on GitHub"
+          "url": "https://github.com/ManifoldRG/PCR",
+          "description": "View the PCR code on GitHub"
         }
       },
-      "image": "manifoldWebsite-images/MSSA.png",
+      "image": "manifoldWebsite-images/PCR.png",
+      "icon": ""
+    },
+    "damage_responsive_reconfiguration": {
+    "title": "Damage Responsive Reconfiguration",
+    "description": "Damage Responsive Reconfiguration develops damage-aware reconfiguration strategies for modular robotic structures, enabling them to detect failures and reorganize themselves without human intervention. By leveraging distributed control and adaptive role reassignment, the project ensures that even partially impaired systems can preserve connectivity, maintain function, and continue operating under degraded conditions.",
+    "links": {
+      "discord_link": {
+        "title": "Discord",
+        "url": "https://discordapp.com/channels/755517485096108153/1398390905832079562",
+        "description": "Join the DRR Discord Channel"
+      },
+      "github_link": {
+        "title": "GitHub",
+        "url": "https://github.com/ManifoldRG/DRR",
+        "description": "View the DRR code on GitHub"
+      }
+    },
+    "image": "manifoldWebsite-images/DRR.png",
+    "icon": ""
+    },
+     "flying_cube_assembly": {
+      "title": "Flying Cube Assembly",
+      "description": "Flying Cube Assembly develops centralized coordination and control strategies for modular spacecraft that self-assemble in free flight. Each cube is a fully actuated vehicle, capable of independent translation and rotation, yet guided by a shared sequencing policy that directs docking order and approach geometry. By treating structure formation as a coordinated multi-body rendezvous problem, the project enables precise, repeatable in-orbit assembly without mechanical arms or fixed infrastructure.",
+      "links": {},
+      "image": "manifoldWebsite-images/FCA.png",
       "icon": ""
     },
     "crowded_orbit_navigation": {
@@ -130,10 +155,22 @@
       "title": "Aethermorph",
       "description": "Aethermorph develops intelligent, reconfigurable swarms of modular spacecraft for autonomous construction and servicing in orbit. Unlike traditional space robotics, Aethermorph systems are designed to adapt in real time; physically reassembling, coordinating without central control, and responding to mission goals. Through decentralized learning, emergent behavior, and dynamic morphogenesis, the program lays the groundwork for scalable orbital infrastructure and resilient space operations.",
       "projects": {
-        "modular_space_systems_assembly": {
-          "title": "Modular Space Systems Assembly",
-          "description": "Autonomous swarm assembly and reconfiguration of modular space structures.",
-          "url": "/modular_space_systems_assembly",
+        "pivoting_cube_reconfiguration": {
+          "title": "Pivoting Cube Reconfiguratoin",
+          "description": "Simultaneous reconfiguration of pivoting modular space structures.",
+          "url": "/pivoting_cube_assembly",
+          "icon": ""
+        },
+        "flying_cube_assembly": {
+          "title": "Flying Cube Assembly",
+          "description": "Autonomous assembly of free-flying modular space structures.",
+          "url": "/pivoting_cube_assembly",
+          "icon": ""
+        },
+        "damage_responsive_reconfiguration": {
+          "title": "Damage Responsive Reconfiguration",
+          "description": "Autonomous self-repair through damage-aware modular reconfiguration.",
+          "url": "/damage_responsive_reconfiguration",
           "icon": ""
         },
         "crowded_orbit_navigation": {
