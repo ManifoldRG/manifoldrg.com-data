@@ -156,7 +156,7 @@
       "description": "Aethermorph develops intelligent, reconfigurable swarms of modular spacecraft for autonomous construction and servicing in orbit. Unlike traditional space robotics, Aethermorph systems are designed to adapt in real time; physically reassembling, coordinating without central control, and responding to mission goals. Through decentralized learning, emergent behavior, and dynamic morphogenesis, the program lays the groundwork for scalable orbital infrastructure and resilient space operations.",
       "projects": {
         "pivoting_cube_reconfiguration": {
-          "title": "Pivoting Cube Reconfiguratoin",
+          "title": "Pivoting Cube Reconfiguration",
           "description": "Simultaneous reconfiguration of pivoting modular space structures.",
           "url": "/pivoting_cube_assembly",
           "icon": ""
