@@ -109,6 +109,13 @@
       "image": "manifoldWebsite-images/FCA.png",
       "icon": ""
     },
+     "cooperative_object_transportation": {
+      "title": "Cooperative Object Transportation",
+      "description": "Cooperative Object Transportation develops coordinated control strategies for teams of spacecraft that collaboratively move and position objects in orbit. Through shared optimization and guidance, multiple agents act in concert to achieve precise, efficient, and resilient orbital maneuvers. The project advances the foundations of cooperative autonomy for large-scale space logistics and in-orbit construction.",
+      "links": {},
+      "image": "manifoldWebsite-images/COT.png",
+      "icon": ""
+    },
     "crowded_orbit_navigation": {
       "title": "Crowded Orbit Navigation",
       "description": "Crowded Orbits develops learning-based controllers for autonomous spacecraft swarms operating in dense orbits. Using a transformer based neural operator, the system learns to generate fuel-efficient maneuvers that avoid both debris and inter-agent collisions. The project leverages distribution-based objectives and orbital mechanics to enable scalable, decentralized navigation in increasingly congested orbital regimes.",
@@ -171,6 +178,12 @@
           "title": "Damage Responsive Reconfiguration",
           "description": "Autonomous self-repair through damage-aware modular reconfiguration.",
           "url": "/damage_responsive_reconfiguration",
+          "icon": ""
+        },
+        "cooperative_object_transportation": {
+          "title": "Cooperative Object Transportation",
+          "description": "Orbital transport through cooperative spacecraft swarms.",
+          "url": "/cooperative_object_transportation",
           "icon": ""
         },
         "crowded_orbit_navigation": {
