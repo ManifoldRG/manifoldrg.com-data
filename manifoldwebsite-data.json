@@ -69,7 +69,7 @@
 
     "rapid_reconfiguration": {
       "title": "Rapid Reconfiguration",
-      "description": "Rapid Reconfiguration develops scalable planning and coordination strategies for modular robotic collectives to change global shape quickly and reliably. By treating reconfiguration as a massively parallel process rather than a sequential one, the project explores algorithms that reduce transition time, enable simultaneous motion across many modules, and unlock real-time structural adaptability—an essential capability for future programmable matter systems.",
+      "description": "Rapid Reconfiguration develops planning and coordination strategies for modular robotic collectives to change global shape quickly and reliably. By treating reconfiguration as a massively parallel process rather than a sequential one, the project explores algorithms that reduce transition time, enable simultaneous motion across many modules, and unlock real-time structural adaptability—an essential capability for future programmable matter systems.",
       "links": {
         "discord_link": {
           "title": "Discord",
