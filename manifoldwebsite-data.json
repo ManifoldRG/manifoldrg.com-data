@@ -66,9 +66,10 @@
       "image": "manifoldWebsite-images/MultiNet.png",
       "icon": ""
     },
-    "pivoting_cube_reconfiguration": {
-      "title": "Pivoting Cube Reconfiguration",
-      "description": "Pivoting Cube Reconfiguration develops path planning strategies for large collectives of magnetically actuated pivoting cubes, enabling rapid shape change through coordinated rotations and simultaneous movements. By treating reconfiguration as a massively parallel process rather than a sequential one, the project explores scalable algorithms that reduce transition time and unlock real-time adaptability for modular robotic structures.",
+
+    "rapid_reconfiguration": {
+      "title": "Rapid Reconfiguration",
+      "description": "Rapid Reconfiguration develops scalable planning and coordination strategies for modular robotic collectives to change global shape quickly and reliably. By treating reconfiguration as a massively parallel process rather than a sequential one, the project explores algorithms that reduce transition time, enable simultaneous motion across many modules, and unlock real-time structural adaptability—an essential capability for future programmable matter systems.",
       "links": {
         "discord_link": {
           "title": "Discord",
@@ -84,46 +85,51 @@
       "image": "manifoldWebsite-images/PCR.png",
       "icon": ""
     },
-    "damage_responsive_reconfiguration": {
-    "title": "Damage Responsive Reconfiguration",
-    "description": "Damage Responsive Reconfiguration develops damage-aware reconfiguration strategies for modular robotic structures, enabling them to detect failures and reorganize themselves without human intervention. By leveraging distributed control and adaptive role reassignment, the project ensures that even partially impaired systems can preserve connectivity, maintain function, and continue operating under degraded conditions.",
-    "links": {
-      "discord_link": {
-        "title": "Discord",
-        "url": "https://discordapp.com/channels/755517485096108153/1398390905832079562",
-        "description": "Join the DRR Discord Channel"
+
+    "autonomous_self_repair": {
+      "title": "Autonomous Self-Repair",
+      "description": "Autonomous Self-Repair develops damage-aware strategies that allow modular robotic structures to detect failures and reorganize without human intervention. The project focuses on distributed detection, adaptive role reassignment, and connectivity-preserving reconfiguration so that partially impaired systems can maintain function, continue operating under degraded conditions, and recover useful structure over time—moving beyond redundancy toward true robotic resilience.",
+      "links": {
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discordapp.com/channels/755517485096108153/1398390905832079562",
+          "description": "Join the DRR Discord Channel"
+        },
+        "github_link": {
+          "title": "GitHub",
+          "url": "https://github.com/ManifoldRG/Damage-Responsive-Reconfiguration",
+          "description": "View the DRR code on GitHub"
+        }
       },
-      "github_link": {
-        "title": "GitHub",
-        "url": "https://github.com/ManifoldRG/Damage-Responsive-Reconfiguration",
-        "description": "View the DRR code on GitHub"
-      }
+      "image": "manifoldWebsite-images/DRR.png",
+      "icon": ""
     },
-    "image": "manifoldWebsite-images/DRR.png",
-    "icon": ""
-    },
-     "flying_cube_assembly": {
-      "title": "Flying Cube Assembly",
-      "description": "Flying Cube Assembly develops centralized coordination and control strategies for modular spacecraft that self-assemble in free flight. Each cube is a fully actuated vehicle, capable of independent translation and rotation, yet guided by a shared sequencing policy that directs docking order and approach geometry. By treating structure formation as a coordinated multi-body rendezvous problem, the project enables precise, repeatable in-orbit assembly without mechanical arms or fixed infrastructure.",
+
+    "autonomous_assembly_of_modular_space_structures": {
+      "title": "Autonomous Assembly of Modular Space Structures",
+      "description": "Autonomous Assembly of Modular Space Structures develops coordination, planning, and control strategies for free-flying modular spacecraft to assemble large structures in orbit. By treating structure formation as a multi-body rendezvous and docking problem—coordinated across many vehicles—the project enables precise, repeatable assembly without fixed infrastructure, supporting the long-term goal of scalable orbital construction sites.",
       "links": {},
       "image": "manifoldWebsite-images/FCA.png",
       "icon": ""
     },
-     "cooperative_object_transportation": {
-      "title": "Cooperative Object Transportation",
-      "description": "Cooperative Object Transportation develops coordinated control strategies for teams of spacecraft that collaboratively move and position objects in orbit. Through shared optimization and guidance, multiple agents act in concert to achieve precise, efficient, and resilient orbital maneuvers. The project advances the foundations of cooperative autonomy for large-scale space logistics and in-orbit construction.",
+
+    "cooperative_object_transportation_in_orbit": {
+      "title": "Cooperative Object Transportation in Orbit",
+      "description": "Cooperative Object Transportation in Orbit develops coordinated autonomy for teams of spacecraft to move, handoff, and position objects in space. Multiple agents act in concert—through shared guidance, distributed optimization, and robust interaction strategies—to achieve precise, fuel-efficient transport under uncertainty, enabling core logistics primitives for in-orbit construction and servicing.",
       "links": {},
       "image": "manifoldWebsite-images/COT.png",
       "icon": ""
     },
-    "crowded_orbit_navigation": {
-      "title": "Crowded Orbit Navigation",
-      "description": "Crowded Orbits develops learning-based controllers for autonomous spacecraft swarms operating in dense orbits. Using a transformer based neural operator, the system learns to generate fuel-efficient maneuvers that avoid both debris and inter-agent collisions. The project leverages distribution-based objectives and orbital mechanics to enable scalable, decentralized navigation in increasingly congested orbital regimes.",
+
+    "navigation_in_crowded_orbital_environments": {
+      "title": "Navigation in Crowded Orbital Environments",
+      "description": "Navigation in Crowded Orbital Environments develops scalable autonomy for spacecraft operating amid debris, traffic, and other agents in dense orbital regimes. The project explores learning-enabled and model-informed control strategies to produce fuel-efficient, collision-free maneuvers with safety constraints, supporting reliable operation as orbits become increasingly congested.",
       "links": {},
       "image": "manifoldWebsite-images/CrowdedOrbitNavigation.png",
       "icon": ""
     }
   },
+
   "research_directions": {
     "golem": {
       "label": "GOLEM",
@@ -150,46 +156,56 @@
         },
         "multinet": {
           "title": "MultiNet",
-          "description": "Benchmarking next‑gen Generalist AI: multimodal perception, language, and action.",
+          "description": "Benchmarking next-gen Generalist AI: multimodal perception, language, and action.",
           "url": "/multinet",
           "icon": ""
         }
       },
       "image": "manifoldWebsite-images/GOLEM.png"
     },
-    "aethermorph": {
-      "label": "Aethermorph",
-      "title": "Aethermorph",
-      "description": "Aethermorph develops intelligent, reconfigurable swarms of modular spacecraft for autonomous construction and servicing in orbit. Unlike traditional space robotics, Aethermorph systems are designed to adapt in real time; physically reassembling, coordinating without central control, and responding to mission goals. Through decentralized learning, emergent behavior, and dynamic morphogenesis, the program lays the groundwork for scalable orbital infrastructure and resilient space operations.",
+
+    "holon": {
+      "label": "Holon",
+      "title": "Holon",
+      "description": "Holon is a long-horizon robotics program focused on cellular, modular robotic systems that can behave as programmable matter. Rather than treating robots as fixed assemblies, Holon explores collectives of simple robotic cells that can reorganize their structure and function in response to task demands and unexpected damage. The program targets foundational capabilities—rapid, parallel shape change and autonomous self-repair—required for resilient, adaptive machines that can operate for long durations in extreme environments.",
       "projects": {
-        "pivoting_cube_reconfiguration": {
-          "title": "Pivoting Cube Reconfiguration",
-          "description": "Simultaneous reconfiguration of pivoting modular space structures.",
-          "url": "/pivoting_cube_assembly",
+        "rapid_reconfiguration": {
+          "title": "Rapid Reconfiguration",
+          "description": "Massively parallel shape change for modular robotic systems.",
+          "url": "/rapid_reconfiguration",
           "icon": ""
         },
-        "flying_cube_assembly": {
-          "title": "Flying Cube Assembly",
+        "autonomous_self_repair": {
+          "title": "Autonomous Self-Repair",
+          "description": "Self-repair through damage-aware modular reorganization.",
+          "url": "/autonomous_self_repair",
+          "icon": ""
+        }
+      },
+      "image": "manifoldWebsite-images/Aethermorph.png"
+    },
+
+    "the_orbital_yard": {
+      "label": "The Orbital Yard",
+      "title": "The Orbital Yard",
+      "description": "The Orbital Yard is a program to enable autonomous construction in orbit—an orbital shipyard where large space structures are built, moved, and maintained by fleets of robotic workers. The program develops the core primitives required for scalable in-space assembly: autonomous modular structure assembly, cooperative transport and handoff of large objects, and safe navigation in dense orbital environments. Together, these capabilities form a technical foundation for persistent orbital construction sites and future megastructures.",
+      "projects": {
+        "autonomous_assembly_of_modular_space_structures": {
+          "title": "Autonomous Assembly of Modular Space Structures",
           "description": "Autonomous assembly of free-flying modular space structures.",
-          "url": "/pivoting_cube_assembly",
+          "url": "/autonomous_assembly_of_modular_space_structures",
           "icon": ""
         },
-        "damage_responsive_reconfiguration": {
-          "title": "Damage Responsive Reconfiguration",
-          "description": "Autonomous self-repair through damage-aware modular reconfiguration.",
-          "url": "/damage_responsive_reconfiguration",
+        "cooperative_object_transportation_in_orbit": {
+          "title": "Cooperative Object Transportation in Orbit",
+          "description": "Cooperative transport and positioning of objects in orbit.",
+          "url": "/cooperative_object_transportation_in_orbit",
           "icon": ""
         },
-        "cooperative_object_transportation": {
-          "title": "Cooperative Object Transportation",
-          "description": "Orbital transport through cooperative spacecraft swarms.",
-          "url": "/cooperative_object_transportation",
-          "icon": ""
-        },
-        "crowded_orbit_navigation": {
-          "title": "Crowded Orbit Navigation",
-          "description": "Neural operator control for collision-free swarm navigation in congested orbital environments.",
-          "url": "/crowded_orbit_navigation",
+        "navigation_in_crowded_orbital_environments": {
+          "title": "Navigation in Crowded Orbital Environments",
+          "description": "Collision-free autonomy in dense orbital regimes.",
+          "url": "/navigation_in_crowded_orbital_environments",
           "icon": ""
         }
       },
