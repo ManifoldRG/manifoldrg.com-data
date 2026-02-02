@@ -7,6 +7,7 @@
       "image": "manifoldWebsite-images/FASE.png",
       "icon": ""
     },
+
     "vlm_calibration": {
       "title": "VLM Calibration",
       "description": "The VLM Calibration Project investigates whether large language models can accurately assess the correctness of their own answers. Despite impressive capabilities, VLMs often exhibit overconfidence; even when wrong. This project systematically evaluates model calibration across multiple datasets and architectures, probing the reliability of their self-assessed confidence. By analyzing when and why different models misjudge uncertainty, we aim to improve trust and interpretability in AI systems.",
@@ -14,7 +15,7 @@
         "discord_link": {
           "title": "Discord",
           "url": "https://discord.com/channels/755517485096108153/1262117499999092837",
-          "description": "Join our VLM Discord Channel"
+          "description": "Join the VLM Calibration Discord"
         },
         "github_link": {
           "title": "GitHub",
@@ -25,42 +26,44 @@
       "image": "manifoldWebsite-images/VLMCalibration.png",
       "icon": ""
     },
+
     "multimodal_action_models": {
       "title": "Multimodal Action Models",
-      "description": "The Multimodal Action Models project aims to develop AI systems that link perception to action across diverse modalities such as vision, language and sensor data to perform complex tasks in dynamic physical and digital environments. These models integrate understanding and control into unified architectures, enabling generalist agents that can interpret multimodal inputs, reason about goals and take appropriate actions in real world or simulated settings.",
+      "description": "The Multimodal Action Models project aims to develop AI systems that link perception to action across diverse modalities such as vision, language and sensor data to perform complex tasks in dynamic physical and digital environments.",
       "links": {
         "discord_link": {
           "title": "Discord",
           "url": "https://discord.com/channels/755517485096108153/1104825004811624488",
-          "description": "Join the Multimodal Action Models Discord Channel"
+          "description": "Join the Multimodal Action Models Discord"
         },
         "github_link": {
           "title": "GitHub",
           "url": "https://github.com/ManifoldRG/NEKO",
-          "description": "View the Multimodal Action Models repo"
+          "description": "View the Multimodal Action Models repository"
         }
       },
       "image": "manifoldWebsite-images/MultimodalActionModels.png",
       "icon": ""
     },
+
     "multinet": {
       "title": "MultiNet",
-      "description": "We are building unified benchmarks for AI systems that see, reason, and act. MultiNet standardizes diverse multimodal datasets, spanning vision, language, and action, and provides tools for training and evaluating generalist agents. By enabling consistent pretraining and rigorous end-to-end evaluation, MultiNet advances the development of foundation models capable of perception, understanding, and control.",
+      "description": "We are building unified benchmarks for AI systems that see, reason, and act.",
       "links": {
         "website": {
           "title": "Website",
           "url": "https://multinet.ai/index.html",
-          "description": "Visit the MultiNet Website"
+          "description": "Visit the MultiNet website"
         },
         "discord_link": {
           "title": "Discord",
           "url": "https://discord.com/channels/755517485096108153/1230314669223317544",
-          "description": "Join the MultiNet Discord Channel"
+          "description": "Join the MultiNet Discord"
         },
         "github_link": {
           "title": "GitHub",
           "url": "https://github.com/ManifoldRG/MultiNet",
-          "description": "View the MultiNet repo on GitHub"
+          "description": "View the MultiNet repository on GitHub"
         }
       },
       "image": "manifoldWebsite-images/MultiNet.png",
@@ -69,17 +72,17 @@
 
     "rapid_reconfiguration": {
       "title": "Rapid Reconfiguration",
-      "description": "Rapid Reconfiguration develops planning and coordination strategies for modular robotic collectives to change global shape quickly and reliably. By treating reconfiguration as a massively parallel process rather than a sequential one, the project explores algorithms that reduce transition time, enable simultaneous motion across many modules, and unlock real-time structural adaptability—an essential capability for future programmable matter systems.",
+      "description": "Rapid Reconfiguration develops planning and coordination strategies for modular robotic collectives to change global shape quickly and reliably.",
       "links": {
         "discord_link": {
           "title": "Discord",
           "url": "https://discord.com/channels/755517485096108153/1292306707015274547",
-          "description": "Join the PCR Discord Channel"
+          "description": "Join the Rapid Reconfiguration Discord"
         },
         "github_link": {
           "title": "GitHub",
           "url": "https://github.com/ManifoldRG/Pivoting-Cube-Reconfiguration",
-          "description": "View the PCR code on GitHub"
+          "description": "View the Rapid Reconfiguration code on GitHub"
         }
       },
       "image": "manifoldWebsite-images/RapidReconfiguration.png",
@@ -88,17 +91,17 @@
 
     "autonomous_self_repair": {
       "title": "Autonomous Self-Repair",
-      "description": "Autonomous Self-Repair develops damage-aware strategies that allow modular robotic structures to detect failures and reorganize without human intervention. The project focuses on distributed detection, adaptive role reassignment, and connectivity-preserving reconfiguration so that partially impaired systems can maintain function, continue operating under degraded conditions, and recover useful structure over time—moving beyond redundancy toward true robotic resilience.",
+      "description": "Autonomous Self-Repair develops damage-aware strategies that allow modular robotic structures to detect failures and reorganize without human intervention.",
       "links": {
         "discord_link": {
           "title": "Discord",
           "url": "https://discordapp.com/channels/755517485096108153/1398390905832079562",
-          "description": "Join the DRR Discord Channel"
+          "description": "Join the Autonomous Self-Repair Discord"
         },
         "github_link": {
           "title": "GitHub",
           "url": "https://github.com/ManifoldRG/Damage-Responsive-Reconfiguration",
-          "description": "View the DRR code on GitHub"
+          "description": "View the Autonomous Self-Repair code on GitHub"
         }
       },
       "image": "manifoldWebsite-images/DRR.png",
@@ -107,7 +110,7 @@
 
     "autonomous_assembly_of_modular_space_structures": {
       "title": "Autonomous Assembly of Modular Space Structures",
-      "description": "Autonomous Assembly of Modular Space Structures develops coordination, planning, and control strategies for free-flying modular spacecraft to assemble large structures in orbit. By treating structure formation as a multi-body rendezvous and docking problem—coordinated across many vehicles—the project enables precise, repeatable assembly without fixed infrastructure, supporting the long-term goal of scalable orbital construction sites.",
+      "description": "Autonomous Assembly of Modular Space Structures develops coordination, planning, and control strategies for free-flying modular spacecraft to assemble large structures in orbit.",
       "links": {},
       "image": "manifoldWebsite-images/FCA.png",
       "icon": ""
@@ -115,15 +118,31 @@
 
     "cooperative_object_transportation_in_orbit": {
       "title": "Cooperative Object Transportation in Orbit",
-      "description": "Cooperative Object Transportation in Orbit develops coordinated autonomy for teams of spacecraft to move, handoff, and position objects in space. Multiple agents act in concert—through shared guidance, distributed optimization, and robust interaction strategies—to achieve precise, fuel-efficient transport under uncertainty, enabling core logistics primitives for in-orbit construction and servicing.",
-      "links": {},
+      "description": "Cooperative Object Transportation in Orbit develops coordinated autonomy for teams of spacecraft to move, handoff, and position objects in space.",
+      "links": {
+        "github_link": {
+          "title": "GitHub",
+          "url": "https://github.com/ManifoldRG/Cooperative-Object-Transportation",
+          "description": "View the Cooperative Object Transportation code on GitHub"
+        },
+        "discord_link": {
+          "title": "Discord",
+          "url": "https://discordapp.com/channels/755517485096108153/1432760099759460352",
+          "description": "Join the Cooperative Object Transportation Discord"
+        },
+        "paper_link": {
+          "title": "Paper",
+          "url": "https://arc.aiaa.org/doi/10.2514/6.2025-0405",
+          "description": "Read the Cooperative Object Transportation paper"
+        }
+      },
       "image": "manifoldWebsite-images/CooperativeObjectTransportation.png",
       "icon": ""
     },
 
     "navigation_in_crowded_orbital_environments": {
       "title": "Navigation in Crowded Orbital Environments",
-      "description": "Navigation in Crowded Orbital Environments develops scalable autonomy for spacecraft operating amid debris, traffic, and other agents in dense orbital regimes. The project explores learning-enabled and model-informed control strategies to produce fuel-efficient, collision-free maneuvers with safety constraints, supporting reliable operation as orbits become increasingly congested.",
+      "description": "Navigation in Crowded Orbital Environments develops scalable autonomy for spacecraft operating amid debris, traffic, and other agents in dense orbital regimes.",
       "links": {},
       "image": "manifoldWebsite-images/CrowdedOrbitNavigation.png",
       "icon": ""
@@ -167,7 +186,7 @@
     "holon": {
       "label": "Holon",
       "title": "Holon",
-      "description": "Holon is a long-horizon robotics program focused on cellular, modular robotic systems that can behave as programmable matter. Rather than treating robots as fixed assemblies, Holon explores collectives of simple robotic cells that can reorganize their structure and function in response to task demands and unexpected damage. The program targets foundational capabilities—rapid, parallel shape change and autonomous self-repair—required for resilient, adaptive machines that can operate for long durations in extreme environments.",
+      "description": "Holon is a long-horizon robotics program focused on cellular, modular robotic systems that can behave as programmable matter. Rather than treating robots as fixed assemblies, Holon explores collectives of simple robotic cells that can reorganize their structure, function, and resource allocation in response to task demands and unexpected damage. Inspired by biological systems, the program targets three foundational capabilities: morphogenesis, the ability to form and transform global structure through local interactions; homeostasis, the ability to detect damage and preserve function through self-repair and reorganization; and metabolism, the ability to manage energy, material, and functional roles over time. Together, these capabilities aim to enable resilient, adaptive machines capable of long-duration operation in extreme and uncertain environments.",
       "projects": {
         "rapid_reconfiguration": {
           "title": "Rapid Reconfiguration",
@@ -188,7 +207,7 @@
     "the_orbital_yard": {
       "label": "The Orbital Yard",
       "title": "The Orbital Yard",
-      "description": "The Orbital Yard is a program to enable autonomous construction in orbit—an orbital shipyard where large space structures are built, moved, and maintained by fleets of robotic workers. The program develops the core primitives required for scalable in-space assembly: autonomous modular structure assembly, cooperative transport and handoff of large objects, and safe navigation in dense orbital environments. Together, these capabilities form a technical foundation for persistent orbital construction sites and future megastructures.",
+      "description": "The Orbital Yard is a research program focused on enabling autonomous, scalable construction in orbit. Many critical space systems, such as large solar power arrays, orbital factories, and kilometer-scale telescopes, are too large or fragile to launch fully assembled and must instead be built in space. Existing approaches rely on centralized, single-purpose systems constrained by launch geometry and cannot scale to meet these demands. The program develops the core primitives required for autonomous in-space construction, including autonomous modular structure assembly, cooperative transportation and handoff of large objects, and safe navigation in dense orbital environments. Together, these capabilities form a technical foundation for persistent orbital construction sites, orbital shipyards, and future large-scale space infrastructure.",
       "projects": {
         "autonomous_assembly_of_modular_space_structures": {
           "title": "Autonomous Assembly of Modular Space Structures",
