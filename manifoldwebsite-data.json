@@ -82,7 +82,7 @@
           "description": "View the PCR code on GitHub"
         }
       },
-      "image": "manifoldWebsite-images/PCR.png",
+      "image": "manifoldWebsite-images/RapidReconfiguration.png",
       "icon": ""
     },
 
@@ -117,7 +117,7 @@
       "title": "Cooperative Object Transportation in Orbit",
       "description": "Cooperative Object Transportation in Orbit develops coordinated autonomy for teams of spacecraft to move, handoff, and position objects in space. Multiple agents act in concert—through shared guidance, distributed optimization, and robust interaction strategies—to achieve precise, fuel-efficient transport under uncertainty, enabling core logistics primitives for in-orbit construction and servicing.",
       "links": {},
-      "image": "manifoldWebsite-images/COT.png",
+      "image": "manifoldWebsite-images/CooperativeObjectTransportation.png",
       "icon": ""
     },
 
@@ -182,7 +182,7 @@
           "icon": ""
         }
       },
-      "image": "manifoldWebsite-images/Aethermorph.png"
+      "image": "manifoldWebsite-images/Holon.png"
     },
 
     "the_orbital_yard": {
@@ -209,7 +209,7 @@
           "icon": ""
         }
       },
-      "image": "manifoldWebsite-images/Aethermorph.png"
+      "image": "manifoldWebsite-images/TheOrbitalYard.png"
     }
   }
 }
