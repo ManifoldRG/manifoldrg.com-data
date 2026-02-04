@@ -72,7 +72,7 @@
 
     "rapid_reconfiguration": {
       "title": "Rapid Reconfiguration",
-      "description": "Rapid Reconfiguration develops planning and coordination strategies for modular robotic collectives to change global shape quickly and reliably.",
+      "description": "Rapid Reconfiguration is a research project focused on developing modular robotic systems capable of quickly and reliably morphing into any desired configuration. The project explores decentralized planning and coordination strategies that allow robotic collectives to reorganize their physical structure in real-time.",
       "links": {
         "discord_link": {
           "title": "Discord",
@@ -91,7 +91,7 @@
 
     "autonomous_self_repair": {
       "title": "Autonomous Self-Repair",
-      "description": "Autonomous Self-Repair develops damage-aware strategies that allow modular robotic structures to detect failures and reorganize without human intervention.",
+      "description": "Autonomous Self-Repair is a research project focused on developing damage-aware strategies that allow modular robotic structures to detect failures and reorganize without human intervention. The project explores distributed sensing and decentralized control frameworks that enable robotic collectives to autonomously isolate faults and preserve global function. By integrating self-diagnostic capabilities with structural adaptation, the project aims to ensure the long-term resilience and operational continuity of machines in remote or hazardous environments.",
       "links": {
         "discord_link": {
           "title": "Discord",
@@ -110,7 +110,7 @@
 
     "autonomous_assembly_of_modular_space_structures": {
       "title": "Autonomous Assembly of Modular Space Structures",
-      "description": "Autonomous Assembly of Modular Space Structures develops coordination, planning, and control strategies for free-flying modular spacecraft to assemble large structures in orbit.",
+      "description": "Autonomous Assembly of Modular Space Structures is a research project focused on developing coordination and control strategies for free-flying robotic swarms to build large-scale orbital systems. Inspired by the emergent behaviors of biological collectives, the project explores decentralized planning frameworks that allow modular agents to assemble complex structures through local interactions. By mimicking nature’s ability to build at scale without centralized command, the project aims to create resilient, scalable foundations for future space infrastructure.",
       "links": {},
       "image": "manifoldWebsite-images/FCA.png",
       "icon": ""
@@ -118,7 +118,7 @@
 
     "cooperative_object_transportation_in_orbit": {
       "title": "Cooperative Object Transportation in Orbit",
-      "description": "Cooperative Object Transportation in Orbit develops coordinated autonomy for teams of spacecraft to move, handoff, and position objects in space.",
+      "description": "Cooperative Object Transportation in Orbit is a research project focused on developing decentralized autonomy for spacecraft teams to move, handoff, and position objects in space. Drawing on evolutionary mechanisms and collective action found in nature, the project explores distributed coordination strategies that allow multiple agents to collaboratively manipulate large payloads without a central controller. By leveraging emergent intelligence and adaptive behaviors, the project aims to enable resilient and scalable transportation systems capable of handling complex logistics in the challenging orbital environment.",
       "links": {
         "github_link": {
           "title": "GitHub",
@@ -142,7 +142,7 @@
 
     "navigation_in_crowded_orbital_environments": {
       "title": "Navigation in Crowded Orbital Environments",
-      "description": "Navigation in Crowded Orbital Environments develops scalable autonomy for spacecraft operating amid debris, traffic, and other agents in dense orbital regimes.",
+      "description": "Navigation in Crowded Orbital Environments is a research project focused on developing scalable autonomy for spacecraft operating amid debris, traffic, and other agents in dense orbital regimes. The project leverages cutting-edge machine learning techniques, including operator learning with mean field game formulations, to map complex initial conditions directly to optimal population-level navigation strategies. By shifting from instance-by-instance optimization to a generalized operator-based framework, the project aims to enable real-time, collision-free maneuvering for massive swarms in high-congested space environments.",
       "links": {},
       "image": "manifoldWebsite-images/CrowdedOrbitNavigation.png",
       "icon": ""
