@@ -186,17 +186,17 @@
     "holon": {
       "label": "Holon",
       "title": "Holon",
-      "description": "Holon is a long-horizon robotics program focused on cellular, modular robotic systems that can behave as programmable matter. Rather than treating robots as fixed assemblies, Holon explores collectives of simple robotic cells that can reorganize their structure, function, and resource allocation in response to task demands and unexpected damage. Inspired by biological systems, the program targets three foundational capabilities: morphogenesis, the ability to form and transform global structure through local interactions; homeostasis, the ability to detect damage and preserve function through self-repair and reorganization; and metabolism, the ability to manage energy, material, and functional roles over time. Together, these capabilities aim to enable resilient, adaptive machines capable of long-duration operation in extreme and uncertain environments.",
+      "description": "Holon is a long-term robotics program focused on cellular, modular systems that behave as programmable matter. The program explores collectives of robotic cells that reorganize their structure and function through morphogenesis, homeostasis, and metabolism. Together, these capabilities enable resilient, adaptive machines capable of self-repair and long-duration operation in extreme or uncertain environments.",
       "projects": {
         "rapid_reconfiguration": {
           "title": "Rapid Reconfiguration",
-          "description": "Massively parallel shape change for modular robotic systems.",
+          "description": "Developing modular robotic systems capable of quickly morphing into any desired configuration.",
           "url": "/rapid_reconfiguration",
           "icon": ""
         },
         "autonomous_self_repair": {
           "title": "Autonomous Self-Repair",
-          "description": "Self-repair through damage-aware modular reorganization.",
+          "description": "Imbuing modular robotic systems with decentralized, rapid repair mechanisms for robotic homeostasis.",
           "url": "/autonomous_self_repair",
           "icon": ""
         }
@@ -207,23 +207,23 @@
     "the_orbital_yard": {
       "label": "The Orbital Yard",
       "title": "The Orbital Yard",
-      "description": "The Orbital Yard is a research program focused on enabling autonomous, scalable construction in orbit. Many critical space systems, such as large solar power arrays, orbital factories, and kilometer-scale telescopes, are too large or fragile to launch fully assembled and must instead be built in space. Existing approaches rely on centralized, single-purpose systems constrained by launch geometry and cannot scale to meet these demands. The program develops the core primitives required for autonomous in-space construction, including autonomous modular structure assembly, cooperative transportation and handoff of large objects, and safe navigation in dense orbital environments. Together, these capabilities form a technical foundation for persistent orbital construction sites, orbital shipyards, and future large-scale space infrastructure.",
+      "description": "The Orbital Yard is a research program focused on enabling autonomous, scalable construction in orbit. Many critical space systems, such as large solar power arrays, orbital factories, and kilometer-scale telescopes, are too large or fragile to launch fully assembled and must instead be built in space. The program develops the core primitives required for autonomous in-space construction, including autonomous modular structure assembly, cooperative transportation and handoff of large objects, and safe navigation in dense orbital environments.",
       "projects": {
         "autonomous_assembly_of_modular_space_structures": {
           "title": "Autonomous Assembly of Modular Space Structures",
-          "description": "Autonomous assembly of free-flying modular space structures.",
+          "description": "Facilitating autonomous assembly of free-flying modular space structures through emergent swarming.",
           "url": "/autonomous_assembly_of_modular_space_structures",
           "icon": ""
         },
         "cooperative_object_transportation_in_orbit": {
           "title": "Cooperative Object Transportation in Orbit",
-          "description": "Cooperative transport and positioning of objects in orbit.",
+          "description": "Fuel-efficient cooperative transport and positioning of objects in orbit through cooperative optimization.",
           "url": "/cooperative_object_transportation_in_orbit",
           "icon": ""
         },
         "navigation_in_crowded_orbital_environments": {
           "title": "Navigation in Crowded Orbital Environments",
-          "description": "Collision-free autonomy in dense orbital regimes.",
+          "description": "Path-planning for an entire distribution of satellites through dense orbital regimes.",
           "url": "/navigation_in_crowded_orbital_environments",
           "icon": ""
         }
