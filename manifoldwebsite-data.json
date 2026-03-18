@@ -8,38 +8,19 @@
       "icon": ""
     },
 
-    "vlm_calibration": {
-      "title": "VLM Calibration",
-      "description": "The VLM Calibration Project investigates whether large language models can accurately assess the correctness of their own answers. Despite impressive capabilities, VLMs often exhibit overconfidence; even when wrong. This project systematically evaluates model calibration across multiple datasets and architectures, probing the reliability of their self-assessed confidence. By analyzing when and why different models misjudge uncertainty, we aim to improve trust and interpretability in AI systems.",
+    "software_control_agents": {
+      "title": "Software Control Agents",
+      "description": "The Software Control Agents project aims to develop AI systems that can perceive, reason about, and act within software environments, enabling autonomous execution of complex digital workflows across diverse interfaces such as GUIs, APIs, and command-line systems.",
       "links": {
         "discord_link": {
           "title": "Discord",
-          "url": "https://discord.com/channels/755517485096108153/1262117499999092837",
-          "description": "Join the VLM Calibration Discord"
+          "url": "https://discordapp.com/channels/755517485096108153/1198433411250016326",
+          "description": "Join the Software Control Agents Discord"
         },
         "github_link": {
           "title": "GitHub",
-          "url": "https://github.com/ManifoldRG/VLMCalibration",
-          "description": "View the VLM Calibration code on GitHub"
-        }
-      },
-      "image": "manifoldWebsite-images/VLMCalibration.png",
-      "icon": ""
-    },
-
-    "multimodal_action_models": {
-      "title": "Multimodal Action Models",
-      "description": "The Multimodal Action Models project aims to develop AI systems that link perception to action across diverse modalities such as vision, language and sensor data to perform complex tasks in dynamic physical and digital environments.",
-      "links": {
-        "discord_link": {
-          "title": "Discord",
-          "url": "https://discord.com/channels/755517485096108153/1104825004811624488",
-          "description": "Join the Multimodal Action Models Discord"
-        },
-        "github_link": {
-          "title": "GitHub",
-          "url": "https://github.com/ManifoldRG/NEKO",
-          "description": "View the Multimodal Action Models repository"
+          "url": "https://github.com/ManifoldRG/software-control",
+          "description": "View the Software Control Agents repository"
         }
       },
       "image": "manifoldWebsite-images/MultimodalActionModels.png",
@@ -161,16 +142,10 @@
           "url": "/fase",
           "icon": ""
         },
-        "vlm_calibration": {
-          "title": "VLM Calibration",
-          "description": "Evaluating how well vision language models know when they’re wrong.",
-          "url": "/vlm_calibration",
-          "icon": ""
-        },
-        "multimodal_action_models": {
-          "title": "Multimodal Action Models",
-          "description": "Connecting vision, language and control for generalist embodied AI.",
-          "url": "/multimodal_action_models",
+        "software_control_agents": {
+          "title": "Software Control Agents",
+          "description": "Connecting perception, reasoning, and action for generalist AI operating across software interfaces.",
+          "url": "/software_control_agents",
           "icon": ""
         },
         "multinet": {
