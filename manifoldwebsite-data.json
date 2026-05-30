@@ -134,6 +134,7 @@
     "golem": {
       "label": "GOLEM",
       "title": "GOLEM",
+      "one_liner": "Generalist AI that perceives, reasons, adapts, and acts across any modality.",
       "description": "GOLEM (Generalist Omnimodal Learning in Engineered Minds) is a long term research program focused on building AI systems that can perceive, reason, adapt, and act across any input and output modality. The program explores fundamental architectures, training methodologies, and evaluation frameworks needed for AI systems that can process multimodal inputs, generate appropriate outputs, adapt to new situations, and continue learning over time.",
       "projects": {
         "fase": {
@@ -161,6 +162,7 @@
     "the_orbital_yard": {
       "label": "The Orbital Yard",
       "title": "The Orbital Yard",
+      "one_liner": "Autonomous, scalable construction of large structures in orbit.",
       "description": "The Orbital Yard is a research program focused on enabling autonomous, scalable construction in orbit. Many critical space systems, such as large solar power arrays, orbital factories, and kilometer-scale telescopes, are too large or fragile to launch fully assembled and must instead be built in space. The program develops the core primitives required for autonomous in-space construction, including autonomous modular structure assembly, cooperative transportation and handoff of large objects, and safe navigation in dense orbital environments.",
       "projects": {
         "autonomous_assembly_of_modular_space_structures": {
@@ -203,6 +205,7 @@
     "holon": {
       "label": "Holon",
       "title": "Holon",
+      "one_liner": "Cellular, modular robots that behave as self-repairing programmable matter.",
       "description": "Holon is a long-term robotics program focused on cellular, modular systems that behave as programmable matter. The program explores collectives of robotic cells that reorganize their structure and function through morphogenesis, homeostasis, and metabolism. Together, these capabilities enable resilient, adaptive machines capable of self-repair and long-duration operation in extreme or uncertain environments.",
       "projects": {
         "rapid_reconfiguration": {
