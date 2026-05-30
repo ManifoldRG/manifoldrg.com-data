@@ -158,27 +158,6 @@
       "image": "manifoldWebsite-images/GOLEM.png"
     },
 
-    "holon": {
-      "label": "Holon",
-      "title": "Holon",
-      "description": "Holon is a long-term robotics program focused on cellular, modular systems that behave as programmable matter. The program explores collectives of robotic cells that reorganize their structure and function through morphogenesis, homeostasis, and metabolism. Together, these capabilities enable resilient, adaptive machines capable of self-repair and long-duration operation in extreme or uncertain environments.",
-      "projects": {
-        "rapid_reconfiguration": {
-          "title": "Rapid Reconfiguration",
-          "description": "Developing modular robotic systems capable of quickly morphing into any desired configuration.",
-          "url": "/rapid_reconfiguration",
-          "icon": ""
-        },
-        "autonomous_self_repair": {
-          "title": "Autonomous Self-Repair",
-          "description": "Imbuing modular robotic systems with decentralized, rapid repair mechanisms for robotic homeostasis.",
-          "url": "/autonomous_self_repair",
-          "icon": ""
-        }
-      },
-      "image": "manifoldWebsite-images/Holon.png"
-    },
-
     "the_orbital_yard": {
       "label": "The Orbital Yard",
       "title": "The Orbital Yard",
@@ -201,9 +180,45 @@
           "description": "Path-planning for an entire distribution of satellites through dense orbital regimes.",
           "url": "/navigation_in_crowded_orbital_environments",
           "icon": ""
+        },
+        "rapid_reconfiguration": {
+          "title": "Rapid Reconfiguration",
+          "description": "Developing modular robotic systems capable of quickly morphing into any desired configuration.",
+          "url": "/rapid_reconfiguration",
+          "icon": ""
+        },
+        "autonomous_self_repair": {
+          "title": "Autonomous Self-Repair",
+          "description": "Imbuing modular robotic systems with decentralized, rapid repair mechanisms for robotic homeostasis.",
+          "url": "/autonomous_self_repair",
+          "icon": ""
         }
       },
       "image": "manifoldWebsite-images/TheOrbitalYard.png"
+    }
+  },
+
+  "_disabled_research_directions": {
+    "_note": "Programs here are hidden from the site (the renderer only reads 'research_directions'). To restore one, move its object back into 'research_directions'. Holon was disabled and its projects moved under The Orbital Yard.",
+    "holon": {
+      "label": "Holon",
+      "title": "Holon",
+      "description": "Holon is a long-term robotics program focused on cellular, modular systems that behave as programmable matter. The program explores collectives of robotic cells that reorganize their structure and function through morphogenesis, homeostasis, and metabolism. Together, these capabilities enable resilient, adaptive machines capable of self-repair and long-duration operation in extreme or uncertain environments.",
+      "projects": {
+        "rapid_reconfiguration": {
+          "title": "Rapid Reconfiguration",
+          "description": "Developing modular robotic systems capable of quickly morphing into any desired configuration.",
+          "url": "/rapid_reconfiguration",
+          "icon": ""
+        },
+        "autonomous_self_repair": {
+          "title": "Autonomous Self-Repair",
+          "description": "Imbuing modular robotic systems with decentralized, rapid repair mechanisms for robotic homeostasis.",
+          "url": "/autonomous_self_repair",
+          "icon": ""
+        }
+      },
+      "image": "manifoldWebsite-images/Holon.png"
     }
   }
 }
