@@ -83,6 +83,11 @@
           "title": "GitHub",
           "url": "https://github.com/ManifoldRG/Damage-Responsive-Reconfiguration",
           "description": "View the Autonomous Self-Repair code on GitHub"
+        },
+        "paper_link": {
+          "title": "Paper",
+          "url": "https://www.manifoldrg.com/stress-sharing-for-decentralized-fault-repair-in-modular-spacecraft/",
+          "description": "View our latest paper"
         }
       },
       "image": "manifoldWebsite-images/DRR.png",
